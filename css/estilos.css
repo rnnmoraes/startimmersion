@@ -1,0 +1,31 @@
+body {
+  #background: grey;
+  background-size: 500px;
+  font-family: Arial;  
+}
+  .menu {
+    background-color: grey;
+  }
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title,
+.sub-title{
+  text-align: center;
+}
+
+.sub-title{
+  font-style: italic;
+}
